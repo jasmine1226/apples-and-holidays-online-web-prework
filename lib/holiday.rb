@@ -28,6 +28,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash[:winter].each do |key,value|
     value << supply
   end
+  return holiday_bash
 end
 
 
@@ -68,3 +69,4 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
+
