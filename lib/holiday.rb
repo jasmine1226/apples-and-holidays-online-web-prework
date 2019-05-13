@@ -29,6 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     puts value
     value << supply
   end
+  puts holiday_bash
   return holiday_bash
 end
 
