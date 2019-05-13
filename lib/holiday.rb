@@ -28,6 +28,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash[:winter].each do |key,value|
     puts "Value: #{value}"
     value << supply
+    puts "Value: #{value}"
   end
   puts holiday_bash
   return holiday_bash
