@@ -32,7 +32,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     value
   end
   puts holiday_hash[:winter]
-  return holiday_bash
 end
 
 
