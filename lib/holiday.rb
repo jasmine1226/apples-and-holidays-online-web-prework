@@ -31,7 +31,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     puts "Value: #{value}"
     value
   end
-  puts holiday_bash
+  puts holiday_hash[:winter]
   return holiday_bash
 end
 
