@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
        holiday_a = holiday.to_s.split('_')
        i=0
        while i<holiday_a.length
-         holiday_a[0].capitalize!
+         holiday_a[i].capitalize!
          i+=1
        end
        holiday_s = holiday_a.join(" ")
